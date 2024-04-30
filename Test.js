@@ -20,3 +20,5 @@
 
 // // Initialize the game by rendering the grid
 // renderGrid();
+
+console.log("Added line")
