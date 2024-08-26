@@ -1,0 +1,232 @@
+
+#title1 {
+  height: 10px;
+  text-align: top;
+  margin-bottom: 14px;
+  /* padding: 10px; */
+  /* background-color: #f0f0f0;
+  padding: 10px;
+  text-align: left;
+  margin: 0;  */
+}
+
+#title2{
+height: 10px;
+text-align: top;
+margin-top: 0px;
+margin-bottom: 0px;
+color: brown;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 100%; 
+  }
+
+  td {
+    width: 50px;
+    height: 50px; 
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+  td img {
+    max-width: 100%;
+    max-height: 100%; 
+    display: block; 
+  }
+
+  
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+}
+
+
+
+
+
+.sidebar {
+  flex: 1;
+  width: 300px; 
+  background-color: #f0f0f0; 
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  
+  margin-left: auto;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px;}
+
+
+  .mountain {
+    background-image: url('mountain.jpg'); 
+    background-size: cover; 
+    width: 50px; 
+    height: 50px;
+  }
+  .farm{
+    background-image: url('farm.jpg'); 
+    background-size: cover; 
+    width: 50px; 
+    height: 50px;
+  }
+  .forest{
+    background-image: url('forest.jpg'); 
+    background-size: cover; 
+    width: 50px; 
+    height: 50px;
+  }
+  .town{
+    background-image: url('town.jpg'); 
+    background-size: cover; 
+    width: 50px; 
+    height: 50px;
+  }
+  .water{
+    background-image: url('water.jpg'); 
+    background-size: cover; 
+    width: 50px; 
+    height: 50px;
+  }
+
+
+
+  #restart-button {
+    background: linear-gradient(to bottom, #8B4513, #A0522D); 
+    border: 1px solid #D2691E;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase; 
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4); 
+    transition: all 0.2s; 
+    position: absolute; 
+    bottom: 10px; 
+    right: 10px; 
+  
+    
+    &:hover {
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.6); 
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+h2 {
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+p {
+  font-size: 1.2em;
+}
+ul.image-TwoDArray li {
+  display: flex;
+  align-items: center; 
+}
+
+span.mission-score {
+  margin-right: 10px; 
+}
+
+
+
+#selected-missions {
+  width: 50%; 
+  box-sizing: border-box; 
+  padding: 10px; 
+  float: left; 
+}
+
+#seasonsContainer {
+  width: 50%; 
+  box-sizing: border-box; 
+  padding: 10px; 
+  float: left; 
+}
+
+
+ul.image-TwoDArray li {
+  padding: 0 10px;
+  box-sizing: border-box; 
+}
+
+
+#seasonsContainer img {
+  border-right: 1px solid #ccc; 
+  margin-bottom: 20px;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+#rotateButton {
+  background-color: #ffd700; 
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s;
+}
+
+#rotateButton:hover {
+  background-color: #e5b300; 
+}
+
+#mirrorButton {
+  background-color: #ffd700; 
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s;
+}
+
+#mirrorButton:hover {
+  background-color: #e5b300; 
+}

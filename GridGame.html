@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="GridGame.css">
+</head>
+<body>
+  
+  <!-- <div class="header-container">
+  <h1 id="title">Potato Empire Mapmaker</h1>
+  
+</div> -->
+
+  <div class="container">
+    <div class="map-container">
+      <div id="title1"><h2 >Potato Empire Mapmaker</h2></div>
+  <table>
+    
+
+    
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td><div class="mountain"></div></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><div class="mountain"></div></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><div class="mountain"></div></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><div class="mountain"></div></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><div class="mountain"></div></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr> 
+   
+  </table>
+</div>
+
+  <div class="sidebar">
+
+    <div id="title2"><h3>Selected Missions</h2></div>
+
+    <div id="selected-missions">
+      
+    </div>
+
+    <div id="title3"><h2>Season and Time</h2></div>
+    
+    <div id = "seasonsContainer">
+
+    </div>
+    <!-- <div><b><p>Next Element</p></b></div> -->
+    <div class="clearfix"></div>
+    <b><p id="BorderlandsMissionScore" >Borderlands Mission Score:</p></b>
+    <div>
+      <!--  -->
+      <b><p style="display: inline-block;">Current Element: </p></b>
+      <div id="currentElementImage" style="display: inline-block;"></div>
+      <b><p id="timeUnitForEachCurrentElement" style="display: inline-block; "></p></b>
+
+      <b><p style="display: inline-block;">Next Element: </p></b>
+      <div id="nextElementImage" style="display: inline-block;"></div>
+      <b><p id="timeUnitForEachElement" style="display: inline-block; "></p></b>
+    </div>
+    
+    
+    <!-- <p id="season">Spring</p> -->
+    <div> <b><p id="time-units">Time Units:  </p></b> <p id="game-over-message" style="color: red; font-size: 18px;"></p>  <b><P id="RemainingTimeUnits" >Remaining Time Units: 28 </P></b> </div>
+
+    <div><h2 id="score" >Score: </h2> </div>
+    
+    
+    <div>
+      
+      <button id="restart-button">Restart Game</button>
+
+      <!-- <button id = "rotateButton" onclick="rotateCurrentElement()">Rotate</button>
+      <button id = "mirrorButton" onclick="mirrorCurrentElement()">Mirror</button> -->
+
+      <button id = "rotateButton" >Rotate Current</button>
+      <button id = "mirrorButton" >Mirror Cuurent</button>
+      
+  </div>
+  </div>
+</div>
+
+<script src="GridGame.js"></script>
+
+</body>
+</html>
